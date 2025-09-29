@@ -119,6 +119,8 @@ xgrid();
 # TABULATION:
 ![WhatsApp Image 2025-09-29 at 16 14 38_cd93cd9e](https://github.com/user-attachments/assets/3ebe07f0-ec20-40c7-8897-527c8fcefc21)
 
+![WhatsApp Image 2025-09-29 at 16 13 23_0c23b00b](https://github.com/user-attachments/assets/4bdb8a08-ec63-49c9-a53e-f1838b7979c1)
+
 # Calculation
 1.	ma (Theory) = am/ac =0.7674
 2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.7695

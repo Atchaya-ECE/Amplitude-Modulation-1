@@ -27,8 +27,6 @@ Amplitude Modulation is the process of changing the amplitude of a relatively hi
 2)	Critical modulation: m-1, Em = Ec
 3)	Over modulation:	m>1, Em > Ec
 
-
-
 Note: Keep all the switch faults in off position
 
 # Algorithm
@@ -39,7 +37,6 @@ First, define the parameters for your signals:
 •	Sampling frequency (Fs)
 •	Duration of the signal (T)
 
-
 2.	Create a time vector based on the sampling frequency and duration.
  
 3.	Create Modulating Signal
@@ -48,21 +45,17 @@ Define the modulating signal (message signal).
 4.	Create Carrier Signal
 Define the carrier signal.
 
-
 5.	Perform Amplitude Modulation
 Multiply the carrier signal by the modulating signal plus 1 (to ensure the modulation depth).
 
-
 6.	Plot the Signals
 Visualize the modulating, carrier, and modulated signals.
-
 
 7.	Demodulate the AM Signal
 To demodulate, you can use envelope detection. One way is to rectify the signal and then apply a low-pass filter.
 
 8.	Plot the Demodulated Signal
 Visualize the demodulated signal.
-
 
 9.	Compare Signals
 Compare the original modulating signal with the demodulated signal. PROCEDURE
@@ -79,34 +72,34 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 clc;
 clear;
 close;
-Ac=8.6;
+Ac=13.2;
 Am=6.6;
-Fc=1360;
+Fc=2800;
 Fm=280;
 Fs=12000;
 t=0:1/Fs:2/Fm;
 E1=Am*sin(2*%pi*Fm*t);
 subplot(4,1,1);
 plot(t,E1);
-xlabel("Time(s");
+xlabel("Time(s)");
 ylabel("Amplitude");
 title("Message Signal");
 E2=Ac*sin(2*%pi*Fc*t);
 subplot(4,1,2);
 plot(t,E2);
-xlabel("Time(s");
+xlabel("Time(s)");
 ylabel("Amplitude");
 title("Carrier Signal");
 E3=(Ac+Am*sin(2*%pi*Fm*t)).*sin(2*%pi*Fc*t);
 subplot(4,1,3);
 plot(t,E3);
-xlabel("Time(s");
+xlabel("Time(s)");
 ylabel("Amplitude");
 title("AM Signal");
 demodulated_signal=abs(hilbert(E3))-Ac;
 subplot(4,1,4);
 plot(t,demodulated_signal);
-xlabel("Time(s");
+xlabel("Time(s)");
 ylabel("Amplitude");
 title("Demodulated Signal");
 xgrid();

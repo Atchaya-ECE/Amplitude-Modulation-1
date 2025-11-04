@@ -106,25 +106,19 @@ xgrid();
 ```
 
 # Output Waveform
-
-<img width="761" height="578" alt="image" src="https://github.com/user-attachments/assets/b994b798-1ad8-4f7a-902f-88d3ffaa63c4" />
+![WhatsApp Image 2025-11-04 at 18 10 41_11810070](https://github.com/user-attachments/assets/f658d154-fc1a-42b1-8dd6-7c32926e94a6)
 
 # TABULATION:
-![WhatsApp Image 2025-09-29 at 16 14 38_cd93cd9e](https://github.com/user-attachments/assets/3ebe07f0-ec20-40c7-8897-527c8fcefc21)
+![WhatsApp Image 2025-11-04 at 20 45 28_a5c14cdc](https://github.com/user-attachments/assets/cb4f61c2-17f6-40b1-b6c6-dcf63d37ddc4)
 
-![WhatsApp Image 2025-09-29 at 16 13 23_0c23b00b](https://github.com/user-attachments/assets/4bdb8a08-ec63-49c9-a53e-f1838b7979c1)
+![WhatsApp Image 2025-11-04 at 20 45 46_03d19382](https://github.com/user-attachments/assets/a767c565-cf78-49cf-9190-79d80cb1745d)
 
 # Calculation
 1.	ma (Theory) = am/ac =0.7674
 2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.7695
 
-
 # MODEL GRAPH
  <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />
 
- 
- 
-
-
-RESULT:
+# RESULT:
 Thus the amplitude modulation and demodulation is experimentally done and the output is verified.

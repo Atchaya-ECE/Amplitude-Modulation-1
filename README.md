@@ -114,9 +114,8 @@ xgrid();
 # Calculation
 ![WhatsApp Image 2025-11-04 at 20 45 46_03d19382](https://github.com/user-attachments/assets/a767c565-cf78-49cf-9190-79d80cb1745d)
 
-**
 Modulation Index Theoretical =0.5
-Modulation Index Practical = 0.506**
+Modulation Index Practical = 0.506
 
 # MODEL GRAPH
  <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />

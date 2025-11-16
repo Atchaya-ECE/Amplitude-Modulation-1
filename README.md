@@ -122,4 +122,4 @@ Modulation Index Practical = 0.506
  <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />
 
 # RESULT:
-Thus the amplitude modulation and demodulation is experimentally done and the output is verified.
+![WhatsApp Image 2025-11-16 at 21 17 19_6b578e62](https://github.com/user-attachments/assets/94cbfec3-1675-4d36-a755-d8989ee09e1a)
